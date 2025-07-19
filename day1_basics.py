@@ -35,7 +35,7 @@ def bmiCalculator():
     elif ( bmi >=25 and bmi <= 29.9):
         category = "overweight"
     else:
-        category = "overweight"
+        category = "obese"
 
     print(f"Your BMI is {bmi} and you are {category}")
 
